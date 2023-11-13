@@ -7,8 +7,10 @@ weight_as_int=int(weight)
 
 bmi=weight_as_int / height_as_int**2
 
-print("Vucut kitle endeksiniz")
-print(bmi)
+bmi_as_int=int(bmi)
+
+print(f"Vucut kitle endeksiniz {bmi_as_int}")
+
 
 if(bmi < 18.5) : 
     print("İdeal kilonun altında")
